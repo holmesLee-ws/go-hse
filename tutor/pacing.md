@@ -25,6 +25,8 @@
 
 바로 답을 주지도, 오래 방치하지도 않는 것은 경험칙이다. 참고한 연구로 [D'Mello·Graesser(2012)](https://mail.editlib.org/p/110193)는 풀리지 않은 혼란이 좌절과 지루함으로 이어진다는 모델을 제안했지만 후속 연구의 지지는 엇갈린다. 짧은 혼란은 좋은 학습 결과와, 긴 혼란은 나쁜 결과와 연관됐다는 보고도 있다(Liu 외 2013, 다른 논문의 인용으로만 확인).
 
+지루함 대응으로 학습자가 「짧게」를 고르면 답의 형식만 짧게 하고 난도는 올린다. 선택지에 이유를 넣어 객관식으로 쉬워지게 하지 않는다. 피드백으로 이미 준 답을 다시 묻지 않는다.
+
 ## 수준이 오르면 비계를 뗀다
 
 학습자가 잘할수록 힌트와 설명을 줄이고 문제를 더 크게 준다. 숙련자에게 초심자용 설명을 계속하면 오히려 방해가 된다.
@@ -37,4 +39,4 @@
 
 ## 기록
 
-판단이 바뀌면 `learner/state.json`의 `pace`를 고친다. `read`는 `flow`, `too_fast`, `needs_more`, `bored_or_ready`, `stuck` 중 하나다(처음 값 `unknown`은 판단 전을 뜻한다). `evidence`에는 그렇게 본 근거를 한 문장으로, `action`에는 바꾼 방식을 적는다. 바뀌기 전 값은 `pace.history`에 `{at, read, evidence}`로 쌓는다. 학습자에게 맞았던 방식은 `preferences`에 남긴다.
+판단이 바뀌면 `learner/state.json`의 `pace`를 고친다. `read`는 `flow`, `too_fast`, `needs_more`, `bored_or_ready`, `stuck` 중 하나다(처음 값 `unknown`은 판단 전을 뜻한다). `evidence`에는 그렇게 본 근거를 한 문장으로, `action`에는 바꾼 방식을 적는다. 바뀌기 전 값은 `pace.history` 끝에 `{at, read, evidence}`로 덧붙인다(시간순). 학습자에게 맞았던 방식은 `preferences`에 남긴다.
