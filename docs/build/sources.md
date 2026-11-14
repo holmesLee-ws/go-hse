@@ -1,0 +1,60 @@
+# 근거 출처
+
+지도(`curriculum/map.md`)와 튜터 지침에 쓴 법령·기준을 공식 출처에서 확인한 기록이다. 한 행이 한 법령·기준이다. `tools/check.mjs`는 지도 「국내 근거」 줄의 법령명과 `제N조(의M)`이 아래 표의 「확인한 조문」에 있는지 대조한다(항·호는 사람이 본다).
+
+- 법규는 바뀐다. 이 표는 조회일 기준이다. 학습 세션의 튜터는 이 표를 믿지 않고 세션 중 다시 확인한다([tutor/legal-sources.md](../../tutor/legal-sources.md)).
+- 고칠 때는 조회일을 새로 적는다.
+- 확인 수준: **원문** = 원 기관의 법령·규정 본문을 직접 읽음, **기관** = 원 기관의 안내·보도·일정 페이지를 직접 읽음, **요약** = 원 기관 도메인으로 한정한 검색 결과만 봄(페이지가 자동 요청을 막음). 요약 수준은 지도에 조항 번호를 쓰지 않고 기준 이름·판·연도까지만 쓴다.
+
+## 국내 법령
+
+| 법령·기준명 | 확인한 조문 | URL | 조회일 |
+|---|---|---|---|
+
+## 국내 행정규칙·기관 자료
+
+| 법령·기준명 | 확인한 조문 | URL | 조회일 |
+|---|---|---|---|
+| 사업장 위험성평가에 관한 지침 | (원문 — 보도자료 첨부) 2026-11-04 전부개정 발령. 노동자대표 요구 시 참여 보장, 최초평가는 최초 작업 시작 전, 수시평가는 작업 시작 전, 정기평가 매년 1회 이상, 일정 사전 고지·결과 공유, 도급인·수급인 각각 또는 공동 실시. 과태료 50인 이상(건설 50억 이상) 2027-01-01, 50인 미만 2028-01-01. 미실시 1·2·3차 500·700·1,000만 원. 고시 번호·시행일은 보도자료에 없음 — 행정규칙 원문으로 확인 필요. 직전 고시 제2024-76호(행정예고 공고 제2026-461호) | https://moel.go.kr/news/enews/report/enewsView.do?news_seq=20194 | 2026-11-14 |
+| 산업안전보건법 개정(2026-01-29 국회 의결) | (기관) 안전보건 공시제 2026-08-01 시행, 재해조사 범위 확대·보고서 공개, 위험성평가 과태료 상한(미실시 1천만 원) | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18908 | 2026-11-14 |
+| 산업안전보건법 개정(2026-10-01 국회 통과) | (기관) 1년간 3명 이상 사망 시 영업이익 5% 이내 과징금(공포 후 6개월), 근로자·하청 근로자의 작업중지 요구 확대(공포 후 6개월), 안전한일터위원회. 공포일 미확인 | https://moel.go.kr/news/enews/report/enewsView.do?news_seq=20037 | 2026-11-14 |
+| 중대재해처벌법 50인 미만 확대 적용 문답 | (원문 — 첨부) 2024-01-27부터 상시근로자 5인 이상 모든 기업. 중대산업재해 정의 세 가지. 안전보건관리체계 핵심요소와 반기 1회 이상 점검. 산업안전보건법 제36조 위험성평가를 하면 유해·위험요인 점검을 한 것으로 봄 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16131 | 2026-11-14 |
+| 중대재해처벌법 해설서 | (기관) 2021-11-17 배포, 안전보건관리체계 구축 9가지 의무 설명 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=12919 | 2026-11-14 |
+| 재해조사 대상 사고사망 현황 | (기관) 2025년 605명(573건, 잠정). 2026년 3분기 누적 366명 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19159 | 2026-11-14 |
+| 화학물질관리법 개정 시행 안내 | (원문) 2025-08-07 시행. 유해화학물질을 인체급성·인체만성·생태유해성·사고대비물질로 정의, 제한물질 취급 신고(제18조 제5항) | https://mcee.go.kr/hg/web/board/read.do?boardCategoryId=540&boardId=1756040&boardMasterId=136&menuId=3470 | 2026-11-14 |
+| 화학물질안전원 고시 목록 | (기관) 화학사고예방관리계획서 작성 등 규정 제2026-7호, 검토 제2026-8호, 이행 제2026-10호 | https://nics.mcee.go.kr/sub.do?menuId=36 | 2026-11-14 |
+| 화평법·화관법 개정 국회 통과 보도자료 | (기관) 신규화학물질 등록 기준 연 0.1톤 → 연 1톤, 1톤 미만은 신고. 시행일 미확인 | https://m.korea.kr/briefing/pressReleaseView.do?newsId=156609890 | 2026-11-14 |
+| 공정안전보고서의 제출·심사·확인 및 이행상태평가 등에 관한 규정 | (기관) 고용노동부고시 제2025-30호, 2025-05-30 시행 | https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20250501718 | 2026-11-14 |
+| 식품 및 축산물 안전관리인증기준 | (원문) 식약처 고시. 제1조: 식품위생법 제48조부터 제48조의5까지에 따른 기준. 제5조 선행요건(세척·소독관리 포함). 열람본 제2025-8호 | https://www.mfds.go.kr/law/board/boardDetail.do?brdId=data0005&seq=14877&menuKey=11 | 2026-11-14 |
+| 소방안전관리 업무대행 시행 보도자료 | (기관) 화재의 예방 및 안전관리에 관한 법률 제25조(업무대행), 2024-12-01 시행 | https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2416 | 2026-11-14 |
+
+## 글로벌
+
+| 법령·기준명 | 확인한 조문 | URL | 조회일 |
+|---|---|---|---|
+| 미국 OSH Act Sec. 5 | (원문) 5(a)(1) 일반 의무: 사망·중대 상해를 일으키거나 일으킬 수 있는 인지된 위험이 없는 고용·사업장 제공. 5(a)(2) 기준 준수 | https://www.osha.gov/laws-regs/oshact/section5-duties | 2026-11-14 |
+| 미국 29 CFR 1904.39 | (원문) 사망 8시간, 입원·절단·안구 상실 24시간 안에 보고 | https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39 | 2026-11-14 |
+| 미국 29 CFR 1910.1200 (HCS 2024) | (원문) (a)(1) 주로 GHS Rev.7 정렬, (j) 시행 2024-07-19. (기관) 2026-01-15 연장 뒤 기한: 물질 분류 2026-05-19, 물질 관련 사용자 갱신 2026-11-20, 혼합물 분류 2027-11-19, 혼합물 관련 사용자 갱신 2028-05-19 | https://www.osha.gov/hazcom/rulemaking/extension | 2026-11-14 |
+| 미국 29 CFR 1910.119 (PSM) | (원문) (a)(1) 부록 A 임계량 이상 또는 한 장소 1만 파운드 이상 인화성 가스·액체 공정 | https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119 | 2026-11-14 |
+| 미국 OSHA 다중사업장 사용자 인용 정책 CPL 02-00-124 | (기관) 1999-12-10 시행, Creating·Exposing·Correcting·Controlling 네 유형 | https://www.osha.gov/enforcement/directives/cpl-02-00-124 | 2026-11-14 |
+| 미국 OSHA 열 질환 예방 규칙(RIN 1218-AD39) | (기관) 최종 규칙 없음. 제안 2024-08-30, 공청회 2025-06~07. 규제 일정상 보충 제안 2026-12, 최종 2027-10 목표 | https://www.osha.gov/heat-exposure/rulemaking | 2026-11-14 |
+| 미국 OSHA 과태료 2026 | (기관) 2026 물가 조정 없음. 중대 위반 $16,550/건, 고의·반복 $165,514/건 | https://www.osha.gov/memos/2026-05-21/2026-annual-adjustments-osha-civil-penalties | 2026-11-14 |
+| EU 산업안전보건 기본지침 89/391/EEC | (원문) Art. 6(2) 일반 예방 원칙 9개(위험 회피 → … → 대체 → 집단 보호 우선), Art. 9(1) 위험성평가 보유·3근무일 넘는 재해 목록, Art. 11 근로자 협의·참여 | https://publications.europa.eu/resource/celex/31989L0391 | 2026-11-14 |
+| EU 임시·이동 건설현장 지침 92/57/EEC | (원문) Art. 3(1) 시공자 둘 이상이면 안전보건 조정자 지정, 3(3) 사전 통지 문턱 | https://publications.europa.eu/resource/celex/31992L0057 | 2026-11-14 |
+| EU REACH (EC) 1907/2006 | (원문) Art. 6(1) 연 1톤 이상 제조·수입 물질 등록(통합본 2025-06-23) | https://publications.europa.eu/resource/celex/02006R1907-20250623 | 2026-11-14 |
+| EU CLP 개정 (EU) 2024/2865 | (원문) 대부분 2026-07-01, 일부 2027-01-01 적용 | https://publications.europa.eu/resource/celex/32024R2865 | 2026-11-14 |
+| EU CLP 적용일 연기 (EU) 2025/2439 | (원문) 라벨 서식 등 의무를 2028-01-01로 연기 | https://publications.europa.eu/resource/celex/32025R2439 | 2026-11-14 |
+| EU 산업배출지침 IED 2.0 (EU) 2024/1785 | (원문) 국내 이행 2026-07-01, Art. 14a 설비별 환경경영시스템(2027-07-01까지), Art. 79 법인 최중대 위반 과징금 상한 EU 연매출 3% 이상, Art. 79a 손해배상권 | https://publications.europa.eu/resource/celex/32024L1785 | 2026-11-14 |
+| EU 세베소 III 2012/18/EU | (원문) Art. 3 하위·상위 사업장, Art. 8 중대사고 예방정책, Art. 10 상위 사업장 안전보고서 | https://publications.europa.eu/resource/celex/32012L0018 | 2026-11-14 |
+| EU 폐기물 기본지침 2008/98/EC | (원문) Art. 4 폐기물 위계(예방 → 재사용 준비 → 재활용 → 기타 회수 → 처분) | https://publications.europa.eu/resource/celex/32008L0098 | 2026-11-14 |
+| EU 에너지효율지침 (EU) 2023/1791 | (원문) Art. 11(1) 85TJ 초과 에너지경영시스템(2027-10-11까지), 11(2) 10TJ 초과 에너지 감사(첫 감사 2026-10-11까지, 4년 주기) | https://publications.europa.eu/resource/celex/32023L1791 | 2026-11-14 |
+| 영국 Health and Safety at Work etc. Act 1974 | (원문) s.2 사용자 일반 의무(합리적으로 실행 가능한 한), s.2(3) 서면 방침, s.3 비근로자 보호, s.37 임원 개인 책임 | https://www.legislation.gov.uk/ukpga/1974/37/section/2 | 2026-11-14 |
+| 영국 Corporate Manslaughter and Corporate Homicide Act 2007 | (원문) s.1 고위 경영진의 관리 방식이 실질 요소인 중대한 주의의무 위반, s.1(6) 벌금, s.18 개인 방조 책임 없음 | https://www.legislation.gov.uk/ukpga/2007/19/section/1 | 2026-11-14 |
+| 영국 Management of Health and Safety at Work Regulations 1999 | (원문) reg.3(1) 적합하고 충분한 위험성평가, reg.3(6) 근로자 5명 이상이면 기록 | https://www.legislation.gov.uk/uksi/1999/3242/regulation/3 | 2026-11-14 |
+| ILO 2022 기본원칙 편입 | (기관) 2022-06-10 제110차 총회에서 안전하고 건강한 근로환경을 다섯 번째 기본원칙으로, C155·C187을 기본협약으로 | https://www.ilo.org/resource/news/ilc/110/international-labour-conference-adds-safety-and-health-fundamental | 2026-11-14 |
+| ILO C155·C187 한국 비준 | (요약) 두 협약 모두 2008-02-20 비준으로 나옴. NORMLEX 직접 열람 실패 — 튜터는 세션 중 다시 확인 | https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB%3A11200%3A0%3A%3ANO%3A%3AP11200_COUNTRY_ID%3A0103123 | 2026-11-14 |
+| ISO 45001:2018 | (요약) Amd 1:2024 기후 변화 문구 추가. 개정판 ISO/DIS 45001 진행 중(ISO TC 283 뉴스는 기관 수준 확인). 조항 번호는 원문 미확인이라 지도에 쓰지 않는다 | https://committee.iso.org/sites/tc283/home/news/content-left-area/news-and-updates/news.html | 2026-11-14 |
+| ISO 14001:2026 | (요약) 2026-04 발행, 2015판 대체. 전환 기한 공식 문서 미확인 | https://www.iso.org/news/2026/04/iso-14001-2026-published | 2026-11-14 |
+| ISO 50001:2018 | (요약) Amd 1:2024 기후 변화 문구 추가 | https://www.iso.org/standard/69426.html | 2026-11-14 |
+| ISO 45003:2021 | (요약) 안전보건경영시스템 안에서 심리사회적 위험을 관리하는 지침(인증용 아님) | https://www.iso.org/standard/64283.html | 2026-11-14 |
+| UN GHS Rev.11 (2025) | (요약) ST/SG/AC.10/30/Rev.11, 2025-09 게시 | https://unece.org/transport/dangerous-goods/ghs-rev11-2025 | 2026-11-14 |
