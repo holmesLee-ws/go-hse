@@ -91,10 +91,10 @@ function checkDomestic(domestic, sources) {
   return problems;
 }
 
-// 글로벌 비교 줄의 식별자(CFR·U.S.C.·EU 문서 번호·조항·기관명)가 sources.md 글로벌 표에 있는지 본다
+// 글로벌 비교 줄의 식별자(CFR·EU 문서 번호·ISO·ILO 협약·OSHA 지침·영국 법령 약칭)가 sources.md 글로벌 표에 있는지 본다
 const GLOBAL_KEYS = [/\d+ CFR (?:Part |§)?\d+(?:\.\d+)?/g, /(?:\((?:EU|EC)\) )?\d{2,4}\/\d+(?:\/(?:EEC|EC|EU))?/g,
   /ISO(?:\/DIS)? \d{4,5}(?::\d{4})?/g, /\bC1\d\d\b/g, /CPL [\d-]+/g, /GHS Rev\.\d+/g,
-  /\b(?:HSWA 1974|MHSWR 1999|OSH Act|REACH|CLP|IED 2\.0|세베소 III)\b/g];
+  /\b(?:HSWA 1974|MHSWR 1999|OSH Act|REACH|CLP|IED 2\.0)\b/g, /세베소 III/g];
 function checkGlobal(global, sourcesText) {
   const problems = [];
   const table = sourcesText.split("## 글로벌")[1] || "";

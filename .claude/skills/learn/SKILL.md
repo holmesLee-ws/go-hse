@@ -11,4 +11,4 @@ disable-model-invocation: true
 
 `learner/state.json`이 없으면 지정은 기억만 해 두고 첫 세션 절차(입구 진단과 지도)부터 한다. 지도를 만든 뒤 첫 모듈로 그 지정을 제안한다.
 
-`state.json`이 있고 지정이 있으면 `curriculum/map.md`에서 해당 모듈을 찾아 탐침부터 시작한다. 선수 모듈이 비어 있으면 그 사실을 말하고, 선수의 핵심을 탐침 1개로 확인한다.
+`state.json`이 있고 지정이 있으면 `curriculum/map.md`에서 해당 모듈을 찾아(지도에 없는 O 모듈이면 `learner/state.json`의 정의 `title`·`prereq`를 쓴다) 탐침부터 시작한다. 선수 모듈이 비어 있으면 그 사실을 말하고, 선수의 핵심을 탐침 1개로 확인한다.

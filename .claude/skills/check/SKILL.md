@@ -1,7 +1,7 @@
 ---
 name: check
 description: 모듈이나 영역의 성숙도를 빠르게 확인하고, 아는 부분은 건너뛴다.
-argument-hint: "[모듈 id 또는 영역 B·S·C·H·E·F·M]"
+argument-hint: "[모듈 id(O 선택 모듈 포함) 또는 영역 B·S·C·H·E·F·M]"
 disable-model-invocation: true
 ---
 
