@@ -42,15 +42,16 @@
 | EU 산업안전보건 기본지침 89/391/EEC | (원문) Art. 6(2) 일반 예방 원칙 9개(위험 회피 → … → 대체 → 집단 보호 우선), Art. 9(1) 위험성평가 보유·3근무일 넘는 재해 목록, Art. 11 근로자 협의·참여 | https://publications.europa.eu/resource/celex/31989L0391 | 2026-11-14 |
 | EU 임시·이동 건설현장 지침 92/57/EEC | (원문) Art. 3(1) 시공자 둘 이상이면 안전보건 조정자 지정, 3(3) 사전 통지 문턱 | https://publications.europa.eu/resource/celex/31992L0057 | 2026-11-14 |
 | EU REACH (EC) 1907/2006 | (원문) Art. 6(1) 연 1톤 이상 제조·수입 물질 등록(통합본 2025-06-23) | https://publications.europa.eu/resource/celex/02006R1907-20250623 | 2026-11-14 |
+| EU CLP (EC) 1272/2008 | (원문) 물질·혼합물의 분류·표시·포장 규정(GHS를 EU에 도입) — 원 관보본 표제 확인 | https://publications.europa.eu/resource/celex/32008R1272 | 2026-11-14 |
 | EU CLP 개정 (EU) 2024/2865 | (원문) 대부분 2026-07-01, 일부 2027-01-01 적용 | https://publications.europa.eu/resource/celex/32024R2865 | 2026-11-14 |
 | EU CLP 적용일 연기 (EU) 2025/2439 | (원문) 라벨 서식 등 의무를 2028-01-01로 연기 | https://publications.europa.eu/resource/celex/32025R2439 | 2026-11-14 |
 | EU 산업배출지침 IED 2.0 (EU) 2024/1785 | (원문) 국내 이행 2026-07-01, Art. 14a 설비별 환경경영시스템(2027-07-01까지), Art. 79 법인 최중대 위반 과징금 상한 EU 연매출 3% 이상, Art. 79a 손해배상권 | https://publications.europa.eu/resource/celex/32024L1785 | 2026-11-14 |
 | EU 세베소 III 2012/18/EU | (원문) Art. 3 하위·상위 사업장, Art. 8 중대사고 예방정책, Art. 10 상위 사업장 안전보고서 | https://publications.europa.eu/resource/celex/32012L0018 | 2026-11-14 |
 | EU 폐기물 기본지침 2008/98/EC | (원문) Art. 4 폐기물 위계(예방 → 재사용 준비 → 재활용 → 기타 회수 → 처분) | https://publications.europa.eu/resource/celex/32008L0098 | 2026-11-14 |
 | EU 에너지효율지침 (EU) 2023/1791 | (원문) Art. 11(1) 85TJ 초과 에너지경영시스템(2027-10-11까지), 11(2) 10TJ 초과 에너지 감사(첫 감사 2026-10-11까지, 4년 주기) | https://publications.europa.eu/resource/celex/32023L1791 | 2026-11-14 |
-| 영국 Health and Safety at Work etc. Act 1974 | (원문) s.2 사용자 일반 의무(합리적으로 실행 가능한 한), s.2(3) 서면 방침, s.3 비근로자 보호, s.37 임원 개인 책임 | https://www.legislation.gov.uk/ukpga/1974/37/section/2 | 2026-11-14 |
+| 영국 Health and Safety at Work etc. Act 1974 (HSWA 1974) | (원문) s.2 사용자 일반 의무(합리적으로 실행 가능한 한), s.2(3) 서면 방침, s.3 비근로자 보호, s.37 임원 개인 책임 | https://www.legislation.gov.uk/ukpga/1974/37/section/2 | 2026-11-14 |
 | 영국 Corporate Manslaughter and Corporate Homicide Act 2007 | (원문) s.1 고위 경영진의 관리 방식이 실질 요소인 중대한 주의의무 위반, s.1(6) 벌금, s.18 개인 방조 책임 없음 | https://www.legislation.gov.uk/ukpga/2007/19/section/1 | 2026-11-14 |
-| 영국 Management of Health and Safety at Work Regulations 1999 | (원문) reg.3(1) 적합하고 충분한 위험성평가, reg.3(6) 근로자 5명 이상이면 기록 | https://www.legislation.gov.uk/uksi/1999/3242/regulation/3 | 2026-11-14 |
+| 영국 Management of Health and Safety at Work Regulations 1999 (MHSWR 1999) | (원문) reg.3(1) 적합하고 충분한 위험성평가, reg.3(6) 근로자 5명 이상이면 기록 | https://www.legislation.gov.uk/uksi/1999/3242/regulation/3 | 2026-11-14 |
 | ILO 2022 기본원칙 편입 | (기관) 2022-06-10 제110차 총회에서 안전하고 건강한 근로환경을 다섯 번째 기본원칙으로, C155·C187을 기본협약으로 | https://www.ilo.org/resource/news/ilc/110/international-labour-conference-adds-safety-and-health-fundamental | 2026-11-14 |
 | ILO C155·C187 한국 비준 | (요약) 두 협약 모두 2008-02-20 비준으로 나옴. NORMLEX 직접 열람 실패 — 튜터는 세션 중 다시 확인 | https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB%3A11200%3A0%3A%3ANO%3A%3AP11200_COUNTRY_ID%3A0103123 | 2026-11-14 |
 | ISO 45001:2018 | (요약) Amd 1:2024 기후 변화 문구 추가. 개정판 ISO/DIS 45001 진행 중(ISO TC 283 뉴스는 기관 수준 확인). 조항 번호는 원문 미확인이라 지도에 쓰지 않는다 | https://committee.iso.org/sites/tc283/home/news/content-left-area/news-and-updates/news.html | 2026-11-14 |

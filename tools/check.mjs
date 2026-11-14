@@ -92,8 +92,9 @@ function checkDomestic(domestic, sources) {
 }
 
 // 글로벌 비교 줄의 식별자(CFR·U.S.C.·EU 문서 번호·조항·기관명)가 sources.md 글로벌 표에 있는지 본다
-const GLOBAL_KEYS = [/\d+ CFR (?:Part |§)?\d+(?:\.\d+)?/g, /\d+ U\.S\.C\. \d+/g, /(?:\(EU\) )?\d{4}\/\d+(?:\/EC|\/EU)?/g, /§1798\.\d+/g,
-  /\b(?:GDPR|ePrivacy|DSA|CCPA|TCPA|CAN-SPAM|ICC|ESOMAR|WIPO|AMA|FTC Act|EDPB)\b/g];
+const GLOBAL_KEYS = [/\d+ CFR (?:Part |§)?\d+(?:\.\d+)?/g, /(?:\((?:EU|EC)\) )?\d{2,4}\/\d+(?:\/(?:EEC|EC|EU))?/g,
+  /ISO(?:\/DIS)? \d{4,5}(?::\d{4})?/g, /\bC1\d\d\b/g, /CPL [\d-]+/g, /GHS Rev\.\d+/g,
+  /\b(?:HSWA 1974|MHSWR 1999|OSH Act|REACH|CLP|IED 2\.0|세베소 III)\b/g];
 function checkGlobal(global, sourcesText) {
   const problems = [];
   const table = sourcesText.split("## 글로벌")[1] || "";
@@ -109,7 +110,7 @@ function checkGlobal(global, sourcesText) {
 }
 
 function checkGraduation(text) {
-  const need = ["X1", "learner/projects/", "① 타깃", "② 포지셔닝", "③", "④ 채널", "⑤ 측정", "⑥ 가격", "국내 근거", "URL", "조회일", "진출 예정 시장"];
+  const need = ["X1", "learner/projects/", "공정·작업", "유해·위험요인", "위험성 결정", "감소 대책", "제거→대체", "근로자 참여", "재검토 주기", "의무 항목", "점검 방법", "증빙", "점검 주기", "미흡 시 조치", "URL", "조회일"];
   return need.filter((n) => !text.includes(n)).map((n) => `tutor/assessment.md 졸업 산출물 기준에 「${n}」 없음`);
 }
 

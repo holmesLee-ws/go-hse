@@ -73,6 +73,19 @@ go-* 시리즈 공통 척도다(ACM·IEEE-CS CS2023의 숙련 수준에서 빌�
 }
 ```
 
+선택 모듈(O)은 지도에 없으므로 기록에 정의를 함께 둔다.
+
+```json
+"O1": {
+  "title": "위험물 저장소 운영(위험물안전관리법)",
+  "prereq": ["F2"],
+  "sources": ["https://www.law.go.kr/... (조회일 2026-11-14)"],
+  "level": 0,
+  "status": "in_progress",
+  "evidence": []
+}
+```
+
 `status`는 `estimated`, `inferred`, `in_progress`, `done`, `verified_skip`, `self_skip` 중 하나다. `estimated`의 `level`은 입구 진단 문제가 보여 준 수준(대개 1)이다.
 
 - `current.path`는 `probe`(탐침 중), `skip`, `gap`(빈틈만), `full`(전체) 중 하나다.
